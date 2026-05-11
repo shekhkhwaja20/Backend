@@ -39,3 +39,25 @@
 //      console.log("server running on port 5000");
      
 // })
+///EXPRESS////
+import express from "express"
+const app=express()
+const port=5000
+// app.[http method]("route",callback)
+app.get("/",(req,res)=>{
+    // res.send("Hello")
+    res.send("<h1>shekh khwaja is a smart boy </h1>")
+})
+app.get("/about",(req,res)=>{
+    res.send("aagay about pe ")
+})
+app.get("/contact",(req,res)=>{
+    res.send("koi contact nhi hai bhai ")
+})
+app.get("/shop",(req,res)=>{
+    res.send("bakchodi mt kr l*****")
+})
+app.listen(port,()=>{
+  console.log(`server is started at ${port}`);
+  
+})
