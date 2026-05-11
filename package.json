@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekhkhwaja20/Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shekhkhwaja20/Backend/issues"
+  },
+  "homepage": "https://github.com/shekhkhwaja20/Backend#readme"
+}
